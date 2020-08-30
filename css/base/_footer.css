@@ -1,0 +1,113 @@
+/*******************************
+=>  Footer Section
+********************************/
+#main-footer {
+  background-color: #9da504;
+  color: #fff;
+  padding: 5rem 0;
+}
+
+#short-about img {
+  width: 100%;
+}
+
+#short-about p {
+  padding-top: 2rem;
+  text-align: justify;
+}
+
+#short-about a {
+  color: #fff;
+  font-size: 3.2rem;
+  font-family: 'Berkshire Swash', cursive;
+  padding-bottom: 5rem;
+}
+
+#short-about a:hover {
+  text-decoration: none;
+}
+
+
+
+#blog-footer-post h4,
+#blog-footer-menu h4 {
+  text-transform: uppercase;
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+
+.footer-post {
+  margin-bottom: 1rem;
+}
+
+.footer-post:last-of-type {
+  padding: 0;
+}
+
+.footer-blog-title a {
+  color: #583f31;
+  font-size: 1.6rem;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+
+.blog-date {
+  font-size: 1.3rem;
+}
+
+.post-date {
+  font-weight: bold;
+}
+
+#blog-footer-menu nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+#blog-footer-menu nav ul li {
+  list-style: none;
+  padding-bottom: 1rem;
+
+}
+
+#blog-footer-menu nav ul li a {
+  color: #fff;
+  font-size: 1.6rem;
+}
+
+#blog-footer-menu nav ul li a:hover {
+  color: #583f31;
+  text-decoration: none;
+  transition: .5s;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -ms-transition: .5s;
+  -o-transition: .5s;
+}
+
+
+#secondary-footer {
+  background-color: #583f31;
+  padding: 5rem 0;
+  text-align: center;
+}
+
+
+.footer-follow-us a {
+  color: #fff;
+  margin-right: 5rem;
+}
+
+#copyright-sec {
+  background-color: #583f31;
+  padding: .8rem;
+  text-align: center;
+  color: #fff;
+  border-top: 2px solid #966d56;
+
+}
+
+#copyright-sec a {
+  color: #966d56;
+}

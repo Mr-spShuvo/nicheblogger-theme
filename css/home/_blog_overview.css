@@ -1,0 +1,92 @@
+/*******************************
+=>  Blog Overview
+********************************/
+#blog-preview {
+  padding: 5rem 0;
+  background: url('../../assets/img/pattern.png')
+}
+
+.sec-title {
+  color: #9da504;
+  text-align: center;
+  padding-bottom: 5rem;
+}
+
+.blog-snap {
+  box-shadow: 1px 1px 3px #583f3140;
+  overflow: hidden;
+  margin-bottom: 3rem;
+  background: #fff;
+}
+
+.blog-snap-img {
+  background: url('../../assets/img/hero-img.jpg');
+  height: auto;
+  background-size: cover;
+  background-position: center center;
+}
+
+.blog-snap-title {
+  color: #583f31;
+  padding-top: 2rem;
+  font-size: 2.4rem;
+}
+
+.blog-snap-content {
+  padding: 1rem 0 2rem 0;
+  font-size: 1.5rem;
+}
+
+.blog-snap-info,
+.blog-snap-info a {
+  font-size: 1.3rem;
+  font-weight: bolder;
+  padding: 0.25rem 0.5rem 0 0;
+}
+
+.blog-snap-info a {
+  color: #9da504;
+  display: inline-block;
+}
+
+.blog-snap-info a:hover {
+  color: #b0b906;
+}
+
+.blog-snap-info i {
+  color: #dd4d3b;
+  font-size: 1.4rem;
+  padding-right: 0.4rem;
+}
+
+.blog-snap-read {
+  padding-top: 2rem;
+  padding-right: 2rem;
+  text-align: center;
+}
+
+.blog-snap-comments {
+  color: #9da504;
+}
+
+.blog-snap-action {
+  padding-top: 2rem;
+}
+
+.blog-snap-action a {
+  padding: 0.8rem 2rem;
+}
+
+.blog-snap-tags {
+  padding: 2rem 0 2rem 0;
+}
+
+.blog-snap-tags a::after {
+  content: ",";
+  color: #323232;
+}
+
+.blog-snap-tags a:last-of-type::after {
+  content: "";
+  color: #323232;
+}

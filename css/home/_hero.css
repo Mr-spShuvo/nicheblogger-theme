@@ -1,0 +1,47 @@
+/*******************************
+=>  Hero Section
+********************************/
+#hero-section {
+  margin-top: 5.8rem;
+  position: relative;
+  width: 100%;
+  height: 32rem;
+  overflow: hidden;
+  padding-bottom: 20rem;
+}
+
+.hero-details {
+  margin-top: 1rem;
+}
+
+#hero-section h1 {
+  margin-top: 4rem;
+  color: #9da504;
+}
+
+.hero-showcase {
+  text-align: center;
+}
+
+.hero-showcase img {
+
+  height: 25rem;
+  margin-top: 2.5rem;
+  box-shadow: 3px 3px 5px #a5a5a5;
+  z-index: 1;
+}
+
+#hero-section p {
+  padding: 1rem 0;
+  color: #323232;
+
+}
+
+#hero-section .hero-bg {
+  z-index: -1;
+  width: 100%;
+  position: absolute;
+  object-fit: cover;
+  filter: opacity(.3);
+  -webkit-filter: opacity(.3);
+}

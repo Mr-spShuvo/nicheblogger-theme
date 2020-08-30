@@ -1,0 +1,42 @@
+/*******************************
+=>  Call to Action
+********************************/
+
+#call-to-action {
+  text-align: center;
+  padding-top: 5rem;
+
+}
+
+#call-to-action p {
+  font-size: 2.4rem;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #9da504;
+}
+
+a.call-to-action-btn {
+  color: #dd4d3b;
+
+}
+
+.call-to-action-btn i {
+  font-size: 4rem;
+}
+
+.call-to-action-btn i:hover {
+  transition: 0.5s;
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.call-to-action-btn:hover {
+  color: #ff7055;
+}

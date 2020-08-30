@@ -1,0 +1,40 @@
+/*******************************
+=>  Blog Navbar
+********************************/
+/*--- BLog Navigation ---*/
+.blog-navbar {
+  margin-top: 5.8rem;
+  background-color: #583f3120;
+  z-index: 111;
+  color: #583f31;
+}
+
+/*--- Blog Search ---*/
+.blog-search-form,
+.blog-search-form i {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.blog-search-form i {
+  padding-right: 1.2rem;
+}
+
+.blog-search-box {
+  border: none;
+  background-color: transparent;
+  padding-left: .2rem;
+  font-weight: bold;
+  color: #583f31;
+}
+
+.blog-search-box:focus,
+.blog-search-box:active {
+  outline: none;
+  border-bottom: 2px solid #9da504;
+}
+
+.blog-search-box::placeholder {
+  color: #583f31;
+  font-weight: bold;
+}

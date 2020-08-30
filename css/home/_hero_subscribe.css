@@ -1,0 +1,20 @@
+/*******************************
+=>  Hero Subscribe Section
+********************************/
+
+#hero-subscribe-sec {
+  color: #fff;
+  width: 100%;
+  background-color: #dd4d3b;
+  height: 7rem;
+  text-align: center;
+  padding-top: 1.75rem;
+}
+
+#hero-subscribe-sec p {
+  font-weight: bold;
+  font-family: 'Niramit', Arial, Helvetica, sans-serif;
+  display: inline-block;
+  padding-right: 5rem;
+  font-size: 2rem;
+}

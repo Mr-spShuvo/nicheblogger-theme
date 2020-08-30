@@ -1,0 +1,54 @@
+/*******************************
+=>  Feature Posts
+********************************/
+.featured-post article {
+  border: 1px solid #eeeeee;
+  margin: 0;
+  border-radius: 5px;
+  padding: 1.2rem;
+  margin-top: 2rem;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.featured-post-img {
+  width: 100%;
+  height: 200px;
+  background: url("../../assets/img/hero-img.jpg");
+  background-position: center center;
+  background-size: cover;
+
+}
+
+.featured-post-title {
+  font-size: 2.4rem;
+}
+
+.featured-post-title,
+.blog-post-title a {
+  color: #9da504;
+}
+
+.featured-post-title:hover,
+.blog-post-title:hover a {
+  color: #b0b906;
+}
+
+
+
+.featured-post-content {
+  margin-top: 1rem;
+  padding-right: 0.8rem;
+}
+
+.featured-post-content::after {
+  content: "\002E \002E \002E"
+
+}
+
+.blog-sec-info,
+.blog-sec-info i {
+  font-size: 1.3rem;
+}

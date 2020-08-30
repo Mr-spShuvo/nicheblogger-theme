@@ -1,0 +1,23 @@
+/*---
+Red #dd4d3b --- #ff7055
+Green #9da504 --- #b0b906
+Badami #583f31 --- #966d56
+Brown #f7f4ed 
+Black #323232 
+White #fff
+---*/
+
+/*******************************
+=> importing fonts 
+* paragraph: 'Niramit'
+* stite-logo: 'Berkshire Swash'
+* heading: 'Lato'
+********************************/
+
+@import url('../assets/fonts/nicheblogger-fonts.css');
+@import url('base/base.css');
+@import url('home/home.css');
+@import url('blog/blog.css');
+@import url('contact/contact.css');
+@import url('single/single.css');
+@import url('resources/resources.css')

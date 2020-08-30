@@ -1,0 +1,168 @@
+/*---
+Red #dd4d3b --- #ff7055
+Green #9da504 --- #b0b906
+Badami #583f31 --- #966d56
+Brown #f7f4ed 
+---*/
+
+/*******************************
+=>  Default Styling
+********************************/
+:root,
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #fff;
+  color: #583f31;
+  font-family: 'Niramit', Arial, Helvetica, sans-serif;
+  text-rendering: optimizeLegibility;
+}
+
+::-moz-selection {
+  /* Code for Firefox */
+  color: #f7f4ed;
+  background: #966d56;
+}
+
+::selection {
+  color: #f7f4ed;
+  background: #966d56;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+/*--- Nicheblogger Button Design ---*/
+.nb-btn {
+  font-weight: bold;
+  letter-spacing: 0.05rem;
+  font-family: 'Lato';
+  font-size: 1.6rem;
+  color: #fff;
+  border-radius: 3px;
+  padding: .8rem 3rem;
+  cursor: pointer;
+  border: none;
+  box-shadow: .8px .8px 3px #583f3140;
+}
+
+.nb-btn:hover {
+  color: #ff7055;
+  color: #fff;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  transition: 0.5;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5;
+  -ms-transition: 0.5;
+  -o-transition: 0.5;
+  -webkit-transition: 0.5;
+}
+
+.nb-btn-primary {
+  background-color: #dd4d3b;
+}
+
+.nb-btn-primary:hover,
+.nb-btn-primary:focus {
+  background-color: #ff7055;
+}
+
+.nb-btn-secondary {
+  background-color: #9da504;
+}
+
+.nb-btn-secondary:hover,
+.nb-btn-secondary:focus {
+  background-color: #b0b906;
+}
+
+.nb-btn-default {
+  background-color: #583f31;
+}
+
+.nb-btn-default:hover,
+.nb-btn-default:focus {
+  background-color: #966d56;
+}
+
+.nb-btn-outline {
+  font-weight: bold;
+  display: inline-block;
+  border: 0.2rem solid;
+  padding: 0.1rem 2.5rem;
+  font-size: 1.3rem;
+  border-radius: 3rem;
+  -webkit-border-radius: 5rem;
+  -moz-border-radius: 3rem;
+  -ms-border-radius: 3rem;
+  -o-border-radius: 3rem;
+}
+
+.nb-btn-outline-primary {
+  border-color: #dd4d3b;
+  color: #dd4d3b;
+}
+
+.nb-btn-outline-primary:hover {
+  background-color: #dd4d3b;
+  color: #fff;
+}
+
+.nb-btn-outline-secondary {
+  border-color: #9da504;
+  color: #9da504;
+}
+
+.nb-btn-outline-secondary:hover {
+  background-color: #9da504;
+  color: #fff;
+}
+
+.nb-btn-outline-default {
+  border-color: #583f31;
+  color: #583f31;
+}
+
+label {
+  display: none;
+}
+
+
+a:hover {
+  text-decoration: none;
+}
+
+.page-title {
+  height: 16rem;
+  background-color: #9da50430;
+}
+
+.page-title h1 {
+  position: relative;
+  color: #9da504;
+  font-size: 4rem;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}

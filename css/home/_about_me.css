@@ -1,0 +1,73 @@
+/*******************************
+=>  about-me-section
+********************************/
+
+#about-me-sec {
+  padding: 5rem 0;
+  background-color: #f7f4ed;
+}
+
+/* .about-me-sec img {
+  height: 100%;
+  overflow: hidden;
+} */
+
+.about-intro {
+  font-size: 5.2rem;
+  font-weight: bold;
+  color: #9da504;
+  margin-bottom: -1.5rem;
+}
+
+#about-author-name {
+  color: #583f31;
+  font-size: 3.6rem;
+}
+
+.about-author-message {
+  padding: 1rem 0;
+}
+
+.about-action a {
+  margin-right: 1rem;
+}
+
+.about-follow-me {
+  padding-bottom: 5rem;
+}
+
+.about-follow-me h3 {
+  font-size: 2rem;
+  color: #9da50490;
+  margin-top: 3.6rem;
+  padding-bottom: 1.2rem;
+}
+
+.about-follow-me a {
+  padding-right: 2.4rem;
+}
+
+.about-follow-me a i {
+  color: #dd4d3b;
+  font-size: 2.2rem;
+}
+
+.about-follow-me a i:hover {
+  color: #ff7055;
+}
+
+.author-img {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.author-img img {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  border: 5px solid #9da504;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}

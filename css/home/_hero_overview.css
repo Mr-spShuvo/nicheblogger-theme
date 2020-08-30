@@ -1,0 +1,42 @@
+/*******************************
+=>  Hero Overview
+********************************/
+
+#hero-overview {
+  padding: 3rem 0;
+  background: #f7f4ed;
+  text-align: center;
+}
+
+.hero-overview-icon {
+  position: relative;
+  background: #9da504;
+  width: 6rem;
+  height: 6rem;
+  margin: auto;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.hero-overview-icon:hover {
+  opacity: 0.7;
+}
+
+.hero-overview-icon i {
+  position: absolute;
+  color: #f7f4ed;
+  top: 30%;
+  left: 30%;
+}
+
+#hero-overview p {
+  font-size: 1.6rem;
+  padding-top: 1.3rem;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  text-rendering: optimizeLegibility;
+  font-weight: bold;
+  color: #583f31;
+}

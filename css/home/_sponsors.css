@@ -1,0 +1,18 @@
+/*******************************
+=>  Sponsors Section
+********************************/
+#sponsors-sec {
+  padding: 5rem 0;
+  text-align: center;
+
+}
+
+.sponsors-sec-title {
+  font-size: 2.4rem;
+  color: #9da504;
+}
+
+.sponsors-img a {
+  margin-right: 3.6rem;
+  box-sizing: border-box;
+}
